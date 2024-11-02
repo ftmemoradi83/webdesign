@@ -1,0 +1,30 @@
+#download {
+    color: blueviolet;
+    font-size: large;
+ }
+ #TEST {
+     color: cadetblue;
+     font-size: large;
+ }
+ #tick{
+     color: #28a745;
+ }
+ #zabdar{
+     color:#dc3545;
+ }
+th{
+    color: white;
+} 
+#btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    padding: 5px;
+  }
+  #bt:not(:disabled):not(.disabled){
+    cursor: pointer;
+    background-color: #002395;
+    color: white;
+    padding: 5px;
+    border: 1px solid transparent;
+  }

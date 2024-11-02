@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>new project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@33.003/misc/Farsi-Digits/Vazirmatn-FD-font-face.css">
+    <style>
+        * {
+            font-family: Vazirmatn FD;
+            direction: rtl;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        tr,
+        td,
+        th {
+            border-bottom: 1px solid #f1f1f1f1;
+            padding: 30px;
+            border-left: 1px solid #e7e7e7;
+
+        }
+
+
+        tr:nth-child(odd) {
+
+            background-color: #dddddd;
+        }
+
+        th {
+
+            background-color: #ff7f2a;
+
+        }
+
+        td {
+
+            text-align: center;
+
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <th>سرویس ها </th>
+            <th> سرویس E1</th>
+            <th> سرویس E2</th>
+            <th>سرویس برنزی لات</th>
+            <th>سرویس نقره ای لایت</th>
+            <th>سرویس طلایی رایت</th>
+        </tr>
+        <tr>
+            <td> فضای هاست<i class="fa-solid fa-circle-question"></i></td>
+            <td>1.5 گیگابایت</td>
+            <td>3 گیگابایت</td>
+            <td>5 گیگابایت</td>
+            <td>8 گیگابایت</td>
+            <td>12 گیگابایت</td>
+        </tr>
+        <tr>
+            <td>پهنای باند ماهیانه<i class="fa-solid fa-circle-question"></i></td>
+            <td>80 گیگابایت</td>
+            <td>120 گیگابایت</td>
+            <td>150 گیگابایت</td>
+            <td>250 گیگابایت</td>
+            <td>نامحدود</td>
+        </tr>
+        <tr>
+            <td>تعداد دامنه اصلی<i class="fa-solid fa-circle-question"></i></td>
+            <td>1</td>
+            <td>1</td>
+            <td>2</td>
+            <td>5</td>
+            <td>نامحدود</td>
+        </tr>
+        <tr>
+            <td>دامنه رایگان<i class="fa-solid fa-circle-question"></i></td>
+            <td>ir</td>
+            <td>ir</td>
+            <td>ir</td>
+            <td>ir</td>
+            <td>ir</td>
+        </tr>
+        <tr>
+            <td>بهینه شده برای ورد پرس<i class="fa-solid fa-circle-question"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+        </tr>
+        <tr>
+            <td>نصب سریع ورد پرس<i class="fa-solid fa-circle-question"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+        </tr>
+        <tr>
+            <td>تعداد اکانت ایمیل<i class="fa-solid fa-circle-question"></i></td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+            <td>100</td>
+            <td>نامحدود</td>
+        </tr>
+        <td>تعداد پایگاه داده<i class="fa-solid fa-circle-question"></i></td>
+            <td>1</td>
+            <td>2</td>
+            <td>5</td>
+            <td>100</td>
+            <td>نامحدود</td>
+        <tr>
+            <td>تعداد ساب دامنه<i class="fa-solid fa-circle-question"></i></td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+            <td>100</td>
+            <td>نامحدود</td>
+        </tr>
+        <tr>
+            <td>تعداد اکانت اف تی پی<i class="fa-solid fa-circle-question"></i></td>
+            <td>5</td>
+            <td>10</td>
+            <td>20</td>
+            <td>100</td>
+            <td>نامحدود</td>
+        </tr>
+        <tr>
+            <td>تعداد پارک دامنه <i class="fa-solid fa-circle-question"></i></td>
+            <td>5</td>
+            <td>10</td>
+            <td>15</td>
+            <td>20</td>
+            <td>نامحدود</td>
+        </tr>
+        <tr>
+            <td>حداکثر بازدید یکتا روزانه<i class="fa-solid fa-circle-question"></i></td>
+            <td>2000</td>
+            <td>3000</td>
+            <td>4000</td>
+            <td>5000</td>
+            <td>6000</td>
+        </tr>
+        <tr>
+            <td>حجم بزرگترین پایگاه داده<i class="fa-solid fa-circle-question"></i></td>
+            <td>حداکثر 200 مگابایت</td>
+            <td>حداکثر 300 مگابایت</td>
+            <td>حداکثر 400 مگابایت</td>
+            <td>حداکثر 500 مگابایت</td>
+            <td>حداکثر 600 مگابایت</td>
+        </tr>
+        <tr>
+            <td>پنل مدیریت هاست<i class="fa-solid fa-circle-question"></i></td>
+            <td>دایرکت ادمین</td>
+            <td>دایرکت ادمین</td>
+            <td>دایرکت ادمین</td>
+            <td>دایرکت ادمین</td>
+            <td>دایرکت ادمین</td>
+        </tr>
+        <tr>
+            <td>آپتایم سرویس<i class="fa-solid fa-circle-question"></i></td>
+            <td>99%</td>
+            <td>99%</td>
+            <td>99%</td>
+            <td>99%</td>
+            <td>99%</td>
+        </tr>
+        <tr>
+            <td>سیستم عامل<i class="fa-solid fa-circle-question"></i></td>
+            <td>لینوکس</td>
+            <td>لینوکس</td>
+            <td>لینوکس</td>
+            <td>لینوکس</td>
+            <td>لینوکس</td>
+        </tr>
+        <tr>
+            <td>مدیریت فایل حرفه ای<i class="fa-solid fa-circle-question"></i></td>
+            <td>AxFilePro</td>
+            <td>AxFilePro</td>
+            <td>AxFilePro</td>
+            <td>AxFilePro</td>
+            <td>AxFilePro</td>
+        </tr>
+        <tr>
+            <td>پشتیبانی فنی<i class="fa-solid fa-circle-question"></i></td>
+            <td>24 ساعته</td>
+            <td>24 ساعته</td>
+            <td>24 ساعته</td>
+            <td>24 ساعته</td>
+            <td>24 ساعته</td>
+        </tr>
+        <tr>
+            <td>کیفیت سرویس<i class="fa-solid fa-circle-question"></i></td>
+            <td>استاندارد</td>
+            <td>استاندارد</td>
+            <td>استاندارد</td>
+            <td>استاندارد</td>
+            <td>استاندارد</td>
+        </tr>
+        <tr>
+            <td>سرویس دهنده وب<i class="fa-solid fa-circle-question"></i></td>
+            <td>Ngin + Apache</td>
+            <td>Ngin + Apache</td>
+            <td>Ngin + Apache</td>
+            <td>Ngin + Apache</td>
+            <td>Ngin + Apache</td>
+        </tr>
+        <tr>
+            <td>گارانتی بازگشت کامل وجه<i class="fa-solid fa-circle-question"></i></td>
+            <td>هفته اول</td>
+            <td>هفته اول</td>
+            <td>هفته اول</td>
+            <td>هفته اول</td>
+            <td>هفته اول</td>
+        </tr>
+        <tr>
+            <td>بک آپ روزانه<i class="fa-solid fa-circle-question"></i></td>
+            <td>پایگاه داده</td>
+            <td>پایگاه داده</td>
+            <td>پایگاه داده</td>
+            <td>پایگاه داده</td>
+            <td>پایگاه داده</td>
+        </tr>
+        <tr>
+            <td>بک آپ هفتگی<i class="fa-solid fa-circle-question"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+        </tr>
+        <tr>
+            <td>SSL رایگان<i class="fa-solid fa-circle-question"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+        </tr>
+        <tr>
+            <td>پشتیبانی اورژانس<i class="fa-solid fa-circle-question"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+        </tr>
+        <tr>
+            <td>قابلیت ارتقاء رایگان<i class="fa-solid fa-circle-question"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+        </tr>
+        <tr>
+            <td>PHP5 | PHP7 | PHP8<i class="fa-solid fa-circle-question"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+            <td><i class="fa fa-check text-success" id="tick"></i></td>
+        </tr>
+        <tr>
+            <td>ASP<i class="fa-solid fa-circle-question"></i></td>
+            <td><i class="fa fa-times text-danger" id="zabdar"></td>
+            <td><i class="fa fa-times text-danger" id="zabdar"></i></td>
+            <td><i class="fa fa-times text-danger" id="zabdar"></i></td>
+            <td><i class="fa fa-times text-danger" id="zabdar"></i></td>
+            <td><i class="fa fa-times text-danger" id="zabdar"></i></td>
+        </tr>
+        <tr>
+            <td>Perl/CGl<i class="fa-solid fa-circle-question"></i></td>
+            <td><i class="fa fa-times text-danger" id="zabdar"></i></td>
+            <td><i class="fa fa-times text-danger" id="zabdar"></i></td>
+            <td><i class="fa fa-times text-danger" id="zabdar"></i></td>
+            <td><i class="fa fa-times text-danger" id="zabdar"></i></td>
+            <td><i class="fa fa-times text-danger" id="zabdar"></i></td>
+        </tr>
+        <tr>
+            <td>قیمت ماهانه<img src="img/irflag.png" alt="iran"><br>
+                (تومان)<img src="img/euflag.png" alt="اروپا"></td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>213,000
+                <hr>520,000
+            </td>
+        </tr>
+        <tr>
+            <td>قیمت 3 ماهه<img src="img/irflag.png" alt="iran"><br>
+                (تومان)<img src="img/euflag.png" alt="اروپا"></td>
+            <td>147,000
+                <hr>314,000
+            </td>
+            <td>234,000
+                <hr>522,000
+            </td>
+            <td>280,000
+                <hr>651,000
+            </td>
+            <td>375,000
+                <hr>862,000
+            </td>
+            <td>614,000
+                <hr>1,498,000
+            </td>
+        </tr>
+        <tr>
+            <td>قیمت 6 ماهه<img src="img/irflag.png" alt="iran"><br>
+                (تومان)<img src="img/euflag.png" alt="اروپا"></td>
+            <td>285,000
+                <hr>609,000
+            </td>
+            <td>452,000
+                <hr>1,010,000
+            </td>
+            <td>542,000
+                <hr>1,262,000
+            </td>
+            <td>726,000
+                <hr>1,669,000
+            </td>
+            <td>1,189,000
+                <hr>2,902,000
+            </td>
+        </tr>
+        <tr>
+            <td>قیمت 1 ساله<img src="img/irflag.png" alt="iran"><br>
+                (تومان)<img src="img/euflag.png" alt="اروپا"></td>
+            <td>551,000
+                <hr>1,178,000
+            </td>
+            <td>875,000
+                <hr>1,955,000
+            </td>
+            <td>1,048,000
+                <hr>2,441,000
+            </td>
+            <td>1,404,000
+                <hr>3,230,000
+            </td>
+            <td>2,301,000
+                <hr>5,616,000
+            </td>
+        </tr>
+        <tr>
+            <td> سرور ایران<img src="img/irflag.png" alt="iran"> </td>
+            <td><a href="#" id="btn">سفارش</a></td>
+            <td><a href="#" id="btn">سفارش</a></td>
+            <td><a href="#" id="btn">سفارش</a></td>
+            <td><a href="#" id="btn">سفارش</a></td>
+            <td><a href="#" id="btn">سفارش</a></td>
+        </tr>
+        <tr>
+            <td>سرور اروپا <img src="img/euflag.png" alt="اروپا"></td>
+            <td><a href="#" id="bt">سفارش</a></td>
+            <td><a href="#" id="bt">سفارش</a></td>
+            <td><a href="#" id="bt">سفارش</a></td>
+            <td><a href="#" id="bt">سفارش</a></td>
+            <td><a href="#" id="bt">سفارش</a></td>
+        </tr>
+    </table>
+</body>
+
+</html>
